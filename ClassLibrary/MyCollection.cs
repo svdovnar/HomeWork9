@@ -8,7 +8,7 @@ namespace ClassLibrary
         List<T> models = new List<T>();
         public T this[int index]
         {
-            get { return (T)models[index]; }
+            get { return models[index]; }
             set { models[index] = value; }
         }
         public void Add(T value)
